@@ -18,9 +18,8 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     audio_effects.conf
 
-# Mira4U by Kensuke
-PRODUCT_PACKAGES += \
-    Mira4U
+# Put apps here
+# PRODUCT_PACKAGES += \
 
 # Put here external repos
 PRODUCT_PACKAGES += \

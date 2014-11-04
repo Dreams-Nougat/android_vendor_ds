@@ -3,4 +3,4 @@ export VENDOR := ds
 
 # Version info
 ROM_VERSION_MAJOR := 5
-ROM_VERSION_MINOR := 2.4
+ROM_VERSION_MINOR := 3

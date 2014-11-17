@@ -30,7 +30,7 @@ $ mkdir system
 $ cd android/system
 
 # Install Repo
-$ repo init -u https://github.com/DreamsTuna/manifest -b android-5.0.0_r6
+$ repo init -u https://github.com/Dreams-Lp/manifest -b android-5.0.0_r6
 $ repo sync
 ```
 

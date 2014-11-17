@@ -30,7 +30,7 @@ $ mkdir system
 $ cd android/system
 
 # Install Repo
-$ repo init -u https://github.com/DreamsTuna/manifest -b android-4.4.4_r2
+$ repo init -u https://github.com/DreamsTuna/manifest -b android-5.0.0_r6
 $ repo sync
 ```
 
@@ -47,5 +47,5 @@ $ lunch ds_maguro-userdebug
 ```
 
 ## Remember!##
-## This ROM is not a project. This is a ROM originally by @manumanfred (XDA: Carlos_Manuel) and now this ROM is more open sourced and does not have anymore only one person developing this ROM. ##
+## This is a ROM originally by @manumanfred (XDA: Carlos_Manuel) and now this is open sourced ##
 

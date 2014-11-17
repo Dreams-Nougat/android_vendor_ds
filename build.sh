@@ -35,10 +35,10 @@ DEVICE="$1"
 EXTRAS="$2"
 
 # Get build version
-MAJOR=$(cat $DIR/vendor/pa/vendor.mk | grep 'ROM_VERSION_MAJOR := *' | sed  's/ROM_VERSION_MAJOR := //g')
-MINOR=$(cat $DIR/vendor/pa/vendor.mk | grep 'ROM_VERSION_MINOR := *' | sed  's/ROM_VERSION_MINOR := //g')
-MAINTENANCE=$(cat $DIR/vendor/pa/vendor.mk | grep 'ROM_VERSION_MAINTENANCE := *' | sed  's/ROM_VERSION_MAINTENANCE := //g')
-TAG=$(cat $DIR/vendor/pa/vendor.mk | grep 'ROM_VERSION_TAG := *' | sed  's/ROM_VERSION_TAG := //g')
+MAJOR=$(cat $DIR/vendor/ds/vendor.mk | grep 'ROM_VERSION_MAJOR := *' | sed  's/ROM_VERSION_MAJOR := //g')
+MINOR=$(cat $DIR/vendor/ds/vendor.mk | grep 'ROM_VERSION_MINOR := *' | sed  's/ROM_VERSION_MINOR := //g')
+MAINTENANCE=$(cat $DIR/vendor/ds/vendor.mk | grep 'ROM_VERSION_MAINTENANCE := *' | sed  's/ROM_VERSION_MAINTENANCE := //g')
+TAG=$(cat $DIR/vendor/ds/vendor.mk | grep 'ROM_VERSION_TAG := *' | sed  's/ROM_VERSION_TAG := //g')
 
 if [ -n "$TAG" ]; then
         VERSION=$MAJOR.$MINOR$MAINTENANCE-$TAG
@@ -58,7 +58,7 @@ fi
 # Get start time
 res1=$(date +%s.%N)
 
-echo -e "Building AOSPA $VERSION for $DEVICE ${txtrst}";
+echo -e "Building Dreams $VERSION for $DEVICE ${txtrst}";
 echo -e "Start time: $(date) ${txtrst}"
 
 # Decide what command to execute
@@ -98,8 +98,8 @@ fi
 if [ -n "${INTERACTIVE}" ]; then
         echo -e "Dropping to interactive shell${txtrst}"
         echo -en "Remeber to lunch you device:"
-        if [ "${VENDOR}" == "pa" ]; then
-                echo -e "[lunch pa_$DEVICE-userdebug]${txtrst}"
+        if [ "${VENDOR}" == "ds" ]; then
+                echo -e "[lunch ds_$DEVICE-userdebug]${txtrst}"
         else
                 echo -e "[lunch full_$DEVICE-userdebug]${txtrst}"
         fi
@@ -114,7 +114,7 @@ else
         # lunch/brunch device
         echo -e "Lunching device [$DEVICE] (Includes dependencies sync)${txtrst}"
         export PREFS_FROM_SOURCE
-        lunch "pa_$DEVICE-userdebug";
+        lunch "ds_$DEVICE-userdebug";
 
         echo -e "Starting compilation${txtrst}"
         mka bacon

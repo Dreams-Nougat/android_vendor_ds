@@ -29,6 +29,11 @@ PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/$(VENDOR)/prebuilt/etc/init.d/98netflix:system/etc/init.d/98netflix
 
+# SuperSU v2.46
+PRODUCT_COPY_FILES += \
+    vendor/$(VENDOR)/prebuilt/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/$(VENDOR)/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+
 # sysconfig
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \

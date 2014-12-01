@@ -21,4 +21,4 @@
         <!-- Google Play Services -->
         <item>com.google.android.gms</item>
     </string-array>
-    </resources>
+</resources>

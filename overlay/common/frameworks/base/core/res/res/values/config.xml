@@ -18,7 +18,7 @@
     <string-array name="config_locationProviderPackageNames" translatable="false">
         <!-- The standard AOSP fused location provider -->
         <item>com.android.location.fused</item>
-        <!-- com.google.android.locatio -->
+        <!-- com.google.android.location -->
         <item>com.google.android.location</item>
         <!-- Google Play Services -->
         <item>com.google.android.gms</item>

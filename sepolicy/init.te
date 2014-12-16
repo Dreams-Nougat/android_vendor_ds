@@ -1,3 +1,0 @@
-# Allow init to read the context on userdirs (but not their contents)
-# We need this before relabeling them coming from 4.4
-allow init app_data_file:{ lnk_file dir } { getattr relabelfrom };

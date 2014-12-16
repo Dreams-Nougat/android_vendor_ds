@@ -7,24 +7,6 @@ BOARD_SEPOLICY_DIRS += \
     vendor/ds/sepolicy
 
 BOARD_SEPOLICY_UNION += \
-    file.te \
-    genfs_contexts \
-    property_contexts \
-    seapp_contexts \
-    service_contexts \
-    auditd.te \
-    adbd.te \
-    healthd.te \
-    hostapd.te \
-    init.te \
-    installd.te \
-    netd.te \
-    property.te \
-    recovery.te \
-    shell.te \
+    file_contexts \
     su.te \
-    sysinit.te \
-    system.te \
-    ueventd.te \
-    vold.te \
-    mac_permissions.xml
+    ueventd.te

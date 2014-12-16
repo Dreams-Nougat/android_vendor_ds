@@ -10,4 +10,4 @@ BOARD_SEPOLICY_UNION += \
     file_contexts \
     su.te \
     ueventd.te \
-    mac_permissions.xml \
+    mac_permissions.xml

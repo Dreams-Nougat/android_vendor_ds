@@ -28,6 +28,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
 
+# sysconfig
+PRODUCT_COPY_FILES += \
+    vendor/$(VENDOR)/prebuilt/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
+    vendor/$(VENDOR)/prebuilt/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml
+
 # APN
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml

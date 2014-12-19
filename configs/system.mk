@@ -31,7 +31,8 @@ PRODUCT_COPY_FILES += \
 # sysconfig
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
-    vendor/$(VENDOR)/prebuilt/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml
+    vendor/$(VENDOR)/prebuilt/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
+    vendor/$(VENDOR)/prebuilt/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml
 
 # APN
 PRODUCT_COPY_FILES += \

@@ -46,10 +46,11 @@ PRODUCT_COPY_FILES += \
 
 # SU Support
 SUPERUSER_EMBEDDED := true
+SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 
 PRODUCT_PACKAGES := \
     Superuser \
     su
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=3
+    persist.sys.root_access=1

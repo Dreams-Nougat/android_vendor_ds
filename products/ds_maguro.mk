@@ -33,6 +33,8 @@ PRODUCT_NAME := ds_maguro
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:5.0.1/LRX22C/1602158:user/release-keys" PRIVATE_BUILD_DESC="yakju-user 5.0.1 LRX22C 1602158 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT="google/yakju/maguro:5.0.1/LRX22C/1602158:user/release-keys" \
+    PRIVATE_BUILD_DESC="yakju-user 5.0.1 LRX22C 1602158 release-keys"
 
 endif

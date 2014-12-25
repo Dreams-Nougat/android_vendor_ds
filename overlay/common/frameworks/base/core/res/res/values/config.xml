@@ -15,6 +15,7 @@
           have to be explicitly listed here, however it must have a signature
           that matches the signature of at least one package on this list.
           -->
+
     <string-array name="config_locationProviderPackageNames" translatable="false">
         <!-- The standard AOSP fused location provider -->
         <item>com.android.location.fused</item>
@@ -23,4 +24,7 @@
         <!-- Google Play Services -->
         <item>com.google.android.gms</item>
     </string-array>
+
+    <bool name="config_cellBroadcastAppLinks">true</bool>
+
 </resources>

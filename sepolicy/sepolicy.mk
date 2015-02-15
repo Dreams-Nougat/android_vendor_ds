@@ -20,6 +20,7 @@ BOARD_SEPOLICY_UNION += \
     su.te \
     system.te \
     sysinit.te \
+    system_app.te \
     ueventd.te \
     userinit.te \
     vold.te \

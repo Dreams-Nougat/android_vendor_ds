@@ -13,10 +13,13 @@
 # limitations under the License.
 
 # CM DSP Manager
+#PRODUCT_PACKAGES += \
+#    DSPManager \
+#    libcyanogen-dsp \
+#    audio_effects.conf
+
 PRODUCT_PACKAGES += \
-    DSPManager \
-    libcyanogen-dsp \
-    audio_effects.conf
+    AudioFX
 
 # Put apps here
 # PRODUCT_PACKAGES += \

@@ -8,3 +8,5 @@ allow sysinit devpts:chr_file { rw_file_perms };
 allow sysinit shell_exec:file { rx_file_perms };
 allow sysinit system_file:file { rx_file_perms };
 allow sysinit self:process setcurrent;
+allow sysinit selinuxfs:file write;
+allow sysinit userinit_exec:file { read getattr open execute execute_no_trans };

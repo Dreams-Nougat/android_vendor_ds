@@ -11,6 +11,7 @@ BOARD_SEPOLICY_UNION += \
     file_contexts \
     genfs_contexts \
     installd.te \
+    netd.te \
     property.te \
     property_contexts \
     recovery.te \

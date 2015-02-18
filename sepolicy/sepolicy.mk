@@ -12,6 +12,7 @@ BOARD_SEPOLICY_UNION += \
     genfs_contexts \
     dumpstate.te \
     hostapd.te \
+    healthd.te \
     installd.te \
     netd.te \
     property.te \

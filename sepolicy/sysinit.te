@@ -14,5 +14,4 @@ allow sysinit dumpstate:lnk_file read;
 allow sysinit untrusted_app:dir search;
 allow sysinit untrusted_app:file { read open };
 allow sysinit untrusted_app:lnk_file read;
-allow sysinit userinit_exec:file getattr;
 allow sysinit system_server:binder { transfer call };

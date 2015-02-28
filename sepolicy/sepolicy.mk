@@ -20,7 +20,6 @@ BOARD_SEPOLICY_UNION += \
     recovery.te \
     servicemanager.te \
     shell.te \
-    su.te \
     system.te \
     sysinit.te \
     system_app.te \

@@ -13,7 +13,6 @@ BOARD_SEPOLICY_UNION += \
     healthd.te \
     netd.te \
     property.te \
-    property_contexts \
     system.te \
     sysinit.te \
     system_app.te \

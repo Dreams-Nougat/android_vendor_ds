@@ -10,6 +10,7 @@ BOARD_SEPOLICY_UNION += \
     file.te \
     file_contexts \
     genfs_contexts \
+    adbd.te \
     dumpstate.te \
     hostapd.te \
     healthd.te \

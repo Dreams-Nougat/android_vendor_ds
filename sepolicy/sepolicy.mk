@@ -16,11 +16,9 @@ BOARD_SEPOLICY_UNION += \
     netd.te \
     property.te \
     property_contexts \
-    shell.te \
     system.te \
     sysinit.te \
     system_app.te \
     ueventd.te \
     userinit.te \
-    vold.te \
     mac_permissions.xml

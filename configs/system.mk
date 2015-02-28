@@ -43,10 +43,3 @@ PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/$(VENDOR)/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/$(VENDOR)/prebuilt/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
-
-# SU Support
-PRODUCT_PACKAGES := \
-    su
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=3

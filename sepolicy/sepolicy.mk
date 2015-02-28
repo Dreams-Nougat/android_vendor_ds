@@ -9,7 +9,6 @@ BOARD_SEPOLICY_DIRS += \
 BOARD_SEPOLICY_UNION += \
     file.te \
     file_contexts \
-    genfs_contexts \
     hostapd.te \
     healthd.te \
     netd.te \

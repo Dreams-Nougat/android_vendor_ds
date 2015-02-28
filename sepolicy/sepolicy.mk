@@ -16,7 +16,6 @@ BOARD_SEPOLICY_UNION += \
     netd.te \
     property.te \
     property_contexts \
-    recovery.te \
     shell.te \
     system.te \
     sysinit.te \

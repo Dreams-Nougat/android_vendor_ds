@@ -4,9 +4,6 @@
 # userinit
 /system/etc/init.d/90userinit           u:object_r:userinit_exec:s0
 
-# For minivold in recovery
-/sbin/minivold            u:object_r:vold_exec:s0
-
 #############################
 # performance-related sysfs files (CM)
 /sys/devices/system/cpu.*/cpufreq(/.*)? --  u:object_r:sysfs_devices_system_cpu:s0

@@ -23,6 +23,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy
 
+# Override old AOSP defaults
++PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=Ganymede.ogg \
+    ro.config.notification_sound=Tethys.ogg \
+    ro.config.alarm_alert=Osmium.ogg
+
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml

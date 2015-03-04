@@ -30,7 +30,7 @@ $ mkdir system
 $ cd android/system
 
 # Install Repo
-$ repo init -u https://github.com/Dreams-Lp/manifest -b android-5.0.0_r6
+$ repo init -u https://github.com/Dreams-Lp/manifest -b android-5.0.2_r1
 $ repo sync
 ```
 
@@ -44,8 +44,11 @@ $ lunch ds_device-BUILDTYPE
 # like this:
 $ lunch ds_maguro-userdebug
 # notice! To use ds_device-BUILDTYPE, you must have edited files from vendor/ds and you must have device trees for the specified device.
+
+# Initialize the environment, choose which target to build with lunch, build the code and make a flashable .zip 
+$ source build/envsetup.sh && lunch ds_maguro-userdebug && make -j4 otapackage
 ```
 
 ## Remember!##
-## This is a ROM originally by @manumanfred (XDA: Carlos_Manuel) and now this is open sourced ##
-
+## This ROM is originally by me --> @manumanfred (XDA: Carlos_Manuel). This is based on AOSP and this is completely open sourced. ##
+If you like this ROM and want to build this for any other device then feel free to do so, but for now I am not going to support other devices than Galaxy Nexus.

@@ -15,6 +15,7 @@ BOARD_SEPOLICY_UNION += \
     healthd.te \
     netd.te \
     property.te \
+    property_contexts \
     sdcardd.te \
     system.te \
     shell.te \

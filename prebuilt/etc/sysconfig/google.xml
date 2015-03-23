@@ -27,4 +27,8 @@
 
     <!-- If the volta app is pre-installed (for monitoring power use), let it do checkins. -->
     <allow-in-power-save package="com.google.android.volta" />
+
+    <!-- Allow Google sound search to work on power save mode -->
+    <allow-in-power-save package="com.google.android.ears" />
+    <allow-in-power-save package="com.google.android.ears-1" />
 </config>

@@ -27,4 +27,6 @@ endif
 ifeq (ds_toroplus,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/ds_toroplus.mk
 endif
-
+ifeq (ds_condor,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/ds_condor.mk
+endif

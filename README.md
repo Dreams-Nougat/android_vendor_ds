@@ -52,8 +52,9 @@ $ source build/envsetup.sh && lunch ds_maguro-userdebug && make -j4 otapackage
 ## Remember!##
 ## This ROM is originally by me --> @manumanfred (XDA: Carlos_Manuel). This is based on AOSP and this is completely open sourced. ##
 
+```
 Developers of this ROM (team):
 Carlos_Manuel (manumanfred)
 GeekyDroid (GeekyDroid)
-
+```
 If you like this ROM and want to build this for any other device then feel free to do so, but for now I am not going to support other devices than Galaxy Nexus.

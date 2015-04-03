@@ -20,7 +20,7 @@
 
 PRODUCT_PACKAGES += \
     AudioFX \
-	Terminal
+    Terminal
 
 # Put apps here
 # PRODUCT_PACKAGES += \

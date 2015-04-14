@@ -19,8 +19,7 @@
 #    audio_effects.conf
 
 PRODUCT_PACKAGES += \
-    AudioFX \
-    Terminal
+    AudioFX
 
 # Put apps here
 # PRODUCT_PACKAGES += \

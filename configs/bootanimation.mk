@@ -15,7 +15,7 @@
 # Add ds bootanimation based on device resolution
 ifneq ($(filter ds_mako ds_maguro ds_toro ds_toroplus ds_grouper ds_tilapia,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
-        vendor/ds/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
+        vendor/ds/prebuilt/bootanimation/430x300.zip:system/media/bootanimation.zip
 endif
 ifeq (ds_hammerhead,$(TARGET_PRODUCT))
     PRODUCT_COPY_FILES += \

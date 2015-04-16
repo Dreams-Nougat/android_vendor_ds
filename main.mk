@@ -18,6 +18,6 @@ include vendor/ds/vendor.mk
 include vendor/ds/configs/aosp_fixes.mk
 include vendor/ds/configs/system.mk
 include vendor/ds/configs/ds_overrides.mk
-#include vendor/ds/configs/bootanimation.mk
+include vendor/ds/configs/bootanimation.mk
 include vendor/ds/configs/version.mk
 include vendor/ds/sepolicy/sepolicy.mk

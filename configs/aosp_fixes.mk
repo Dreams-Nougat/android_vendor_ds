@@ -30,9 +30,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.alarm_alert=Osmium.ogg
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    media.stagefright.enable-player=true
-    media.stagefright.enable-http=true
-    media.stagefright.enable-aac=true
+    media.stagefright.enable-player=true \
+    media.stagefright.enable-http=true \
+    media.stagefright.enable-aac=true \
     media.stagefright.enable-scan=true
 
 # Enable SIP+VoIP

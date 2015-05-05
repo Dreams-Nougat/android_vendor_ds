@@ -29,7 +29,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Tethys.ogg \
     ro.config.alarm_alert=Osmium.ogg
 
-PRODUCT_COPY_FILES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.enable-player=true
     media.stagefright.enable-http=true
     media.stagefright.enable-aac=true

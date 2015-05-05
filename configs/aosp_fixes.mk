@@ -29,6 +29,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Tethys.ogg \
     ro.config.alarm_alert=Osmium.ogg
 
+PRODUCT_COPY_FILES += \
+	media.stagefright.enable-player=true
+	media.stagefright.enable-http=true
+	media.stagefright.enable-aac=true
+	media.stagefright.enable-scan=true
+
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml

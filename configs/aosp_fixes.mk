@@ -24,16 +24,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy
 
 # Override old AOSP defaults
-+PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Ganymede.ogg \
     ro.config.notification_sound=Tethys.ogg \
     ro.config.alarm_alert=Osmium.ogg
 
 PRODUCT_COPY_FILES += \
-	media.stagefright.enable-player=true
-	media.stagefright.enable-http=true
-	media.stagefright.enable-aac=true
-	media.stagefright.enable-scan=true
+    media.stagefright.enable-player=true
+    media.stagefright.enable-http=true
+    media.stagefright.enable-aac=true
+    media.stagefright.enable-scan=true
 
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \

@@ -4,7 +4,4 @@
 #
 L="log -p i -t ds"
 
-$L " ____   __    __   _      _  _     ___ ";
-$L "|    |  |_|  |__  /_\    / \/ \   |__  ";
-$L "|____|  | \  |__ /   \  /  |   \  ___| ";
-$L "Hi! `getprop ro.build.version.release` / Dreams-`getprop ro.ds.version`";
+$L "Hello `getprop ro.build.version.release` / Dreams-`getprop ro.ds.version`";

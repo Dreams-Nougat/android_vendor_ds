@@ -34,7 +34,7 @@ PRODUCT_BRAND := Google
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="google/yakju/maguro:5.1.1/LMY47V/1836172:user/release-keys" \
-    PRIVATE_BUILD_DESC="yakju-user 5.1.1 LMY47V 1836172 release-keys"
+    BUILD_FINGERPRINT="google/yakju/maguro:5.1.1/LMY48Z/2377595:user/release-keys" \
+    PRIVATE_BUILD_DESC="yakju-user 5.1.1 LMY48Z 2377595 release-keys"
 
 endif

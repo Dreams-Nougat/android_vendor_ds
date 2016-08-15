@@ -80,7 +80,7 @@ echo -e ""
 export DEVICE=$DEVICE
 
 #Use Prebuilt Chromium
-export USE_PREBUILT_CHROMIUM=1
+#export USE_PREBUILT_CHROMIUM=0
 
 # Fetch latest sources
 if [ "$SYNC" == "true" ]; then

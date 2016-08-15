@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/$(VENDOR)/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/$(VENDOR)/prebuilt/etc/init.d/98netflix:system/etc/init.d/98netflix
 
 # sysconfig
 PRODUCT_COPY_FILES += \

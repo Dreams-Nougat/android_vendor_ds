@@ -29,7 +29,7 @@ include vendor/ds/main.mk
 $(call inherit-product, device/samsung/i9105p/full_i9105p.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := s2vepxx
+PRODUCT_NAME := ds_i9105p
 TARGET_DEVICE := s2vep
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-I9105P

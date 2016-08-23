@@ -1,3 +1,6 @@
+add_lunch_combo ds_condor-userdebug
+add_lunch_combo ds_i9300-userdebug
+add_lunch_combo ds_i9105p-userdebug
 add_lunch_combo ds_mako-userdebug
 add_lunch_combo ds_maguro-userdebug
 add_lunch_combo ds_toro-userdebug

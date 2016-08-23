@@ -12,14 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# CM DSP Manager
 #PRODUCT_PACKAGES += \
-#    DSPManager \
-#    libcyanogen-dsp \
-#    audio_effects.conf
-
-PRODUCT_PACKAGES += \
-    AudioFX
+#    AudioFX
 
 # Put apps here
 # PRODUCT_PACKAGES += \

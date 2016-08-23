@@ -25,9 +25,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Override old AOSP defaults
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=Ganymede.ogg \
+    ro.config.ringtone=Titania.ogg \
     ro.config.notification_sound=Tethys.ogg \
-    ro.config.alarm_alert=Osmium.ogg
+    ro.config.alarm_alert=Oxygen.ogg
 
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \

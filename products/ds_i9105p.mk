@@ -30,7 +30,7 @@ $(call inherit-product, device/samsung/i9105p/full_i9105p.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := s2vepxx
-TARGET_DEVICE=s2vep
+TARGET_DEVICE := s2vep
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-I9105P
 PRODUCT_MANUFACTURER := samsung

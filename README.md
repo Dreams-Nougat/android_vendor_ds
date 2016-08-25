@@ -46,7 +46,10 @@ $ lunch ds_maguro-userdebug
 # notice! To use ds_device-BUILDTYPE, you must have edited files from vendor/ds and you must have device trees for the specified device.
 
 # Initialize the environment, choose which target to build with lunch, build the code and make a flashable .zip 
+# Galaxy Nexus - Maguro
 $ source build/envsetup.sh && lunch ds_maguro-userdebug && make -j4 otapackage
+# Galaxy SII Plus - gt-i9105p
+$ source build/envsetup.sh && lunch ds_i9105p-userdebug && make -j4 otapackage
 ```
 
 ## Remember!##

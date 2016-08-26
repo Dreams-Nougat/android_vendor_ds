@@ -24,10 +24,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy
 
 # Override old AOSP defaults
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=Titania.ogg \
-    ro.config.notification_sound=Tethys.ogg \
-    ro.config.alarm_alert=Oxygen.ogg
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.config.ringtone=Titania.ogg \
+#    ro.config.notification_sound=Tethys.ogg \
+#    ro.config.alarm_alert=Oxygen.ogg
 
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \

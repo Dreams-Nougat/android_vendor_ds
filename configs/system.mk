@@ -21,13 +21,13 @@ PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/init.$(VENDOR).rc:root/init.$(VENDOR).rc
 
 # init.d script support
-PRODUCT_COPY_FILES += \
-    vendor/$(VENDOR)/prebuilt/bin/sysinit:system/bin/sysinit
+#PRODUCT_COPY_FILES += \
+#    vendor/$(VENDOR)/prebuilt/bin/sysinit:system/bin/sysinit
 
 # userinit support
-PRODUCT_COPY_FILES += \
-    vendor/$(VENDOR)/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit \
-    vendor/$(VENDOR)/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner \
+#PRODUCT_COPY_FILES += \
+#    vendor/$(VENDOR)/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit \
+#    vendor/$(VENDOR)/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner \
 
 # sysconfig
 PRODUCT_COPY_FILES += \

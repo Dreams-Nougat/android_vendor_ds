@@ -26,7 +26,7 @@ on boot
     setprop net.tcp.delack.lte         8
     setprop net.tcp.usercfg.default    0
     setprop net.tcp.usercfg.wifi       1
-    setprop net.tcp.usercfg.lte 1
+    setprop net.tcp.usercfg.lte        1
 
 # sysinit (/system/etc/init.d)
 service sysinit /system/bin/sysinit

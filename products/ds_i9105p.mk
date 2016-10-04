@@ -16,12 +16,6 @@
 
 ifeq (ds_i9105p,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := ds_hdpi
-
-# Build paprefs from sources
-PREFS_FROM_SOURCE ?= true
-
 # Include ParanoidAndroid common configuration
 include vendor/ds/main.mk
 

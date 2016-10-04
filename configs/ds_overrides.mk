@@ -13,13 +13,10 @@
 # limitations under the License.
 
 #PRODUCT_PACKAGES += \
-# Don't build AudioFX just yet...
-#    AudioFX
 
 # Put apps here
 # PRODUCT_PACKAGES += \
 
 # Put here external repos
 #PRODUCT_PACKAGES += \
-# Don't build Busybox. Move to ToyBox?
-# I need to get familiar with it.
+

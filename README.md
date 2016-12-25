@@ -30,7 +30,7 @@ $ mkdir system
 $ cd android/system
 
 # Install Repo
-$ repo init -u https://github.com/Dreams-Mm/manifest -b 6.0.1_r63-BCM-test
+$ repo init -u https://github.com/Dreams-Nougat/manifest -b android-7.1.1_r6-BCM
 $ repo sync
 ```
 
